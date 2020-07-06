@@ -1,4 +1,13 @@
-# Trakk IoT Device examples
+# Trakk IoT Device Examples
+
+A complete example of how to setup a live IoT / telemetry device and connect it to Trakk Assets (via the Google Cloud IoT platform). 
+This example is written in Python and uses a MQTT connection. 
+
+Key features include:
+- Secure connection by public key authentication
+- Remote device configuration and command
+- On device queue
+- Async publishing and exponential backoff
 
 ## PythonMQTT
 
