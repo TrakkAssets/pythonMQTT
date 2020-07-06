@@ -1,0 +1,17 @@
+
+{
+  "device": {
+    "deviceId": "ad1e3ll5q2n",
+    "privateKeyFile": "rsa_private.pem",
+    "algorithm": "RS256",
+    "tokenExpMins": 1200,
+    "msgInterval": 500,
+    "debug": true
+  },
+  "sensor": {
+    "interval": 60000,
+    "gpio": 19,
+    "type": "DHT11",
+    "debug": true 
+  }
+}

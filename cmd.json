@@ -1,0 +1,4 @@
+{
+    "HELLO_WORLD": ["echo", "Hello World"],
+    "REBOOT": ["reboot"]
+}
