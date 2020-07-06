@@ -1,6 +1,6 @@
 # Trakk IoT Device Examples
 
-A complete example of how to setup a live IoT / telemetry device and connect it to Trakk Assets (via the Google Cloud IoT platform). 
+A complete example of how to setup a live IoT / telemetry device and connect it to [Trakk Assets](trakkassets.com) (via the Google Cloud IoT platform). 
 This example is written in Python and uses a MQTT connection. 
 
 Key features include:
@@ -58,7 +58,9 @@ In order to connect to our servers you will need to generate a private/public ke
 
 `$ openssl rsa -in rsa_private.pem -pubout -out rsa_public.pem`
 
-Save the private key `rsa_private.pem` on your device and specify the path to this file in the 'device' config. Upload the public key `rsa_public.pem` into Trakk Assets when registering your device.
+Register your device in Trakk Assets; upload the public key `rsa_public.pem` and make note of your allocated `deviceID`. 
+
+Save the private key `rsa_private.pem` on your device and then edit the device config file `config.json` to reflect path to this file and your deviceID. 
 
 ## Install script dependancies
 
